@@ -1,0 +1,4 @@
+.custom-bg {
+    clip-path: polygon(100% 0, 30% 0, 50% 100%, 100% 100%);
+    background-color: #f6f6f6;
+}
