@@ -1,4 +1,77 @@
+
+/* our classes */
 .custom-bg {
     clip-path: polygon(100% 0, 30% 0, 50% 100%, 100% 100%);
     background-color: #f6f6f6;
+}
+
+/* our trainers */
+.trainerone {
+    position: relative;
+    overflow: hidden;
+    width: 280px;
+    height: 350px;
+}
+
+
+.trainers-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 33%, 33% 33%, 33% 0, 67% 0, 67% 33%, 100% 33%, 100% 67%, 67% 67%, 67% 100%, 33% 100%, 33% 67%, 0 67%);
+    background-color: #355592;
+    transition: all 0.5s;
+}
+
+
+.trainerone img {
+    position: absolute;
+    border: 2px solid #f29d0e;
+    border-radius: 10px;
+    top: 7px;
+    left: 7px;
+    object-fit: center;
+    width: 95%;
+    height: 96%;
+}
+
+.trainerone:hover .trainers-hover {
+    clip-path: polygon(0 25%, 25% 25%, 25% 0, 75% 0, 75% 25%, 100% 25%, 100% 75%, 75% 75%, 75% 100%, 25% 100%, 25% 75%, 0 75%);
+    transition: clip-path 0.5s ease-in-out;
+}
+
+
+.trainer-info {
+    position: absolute;
+    bottom: -200px;
+    right: 1.5rem;
+    left: 1.5rem;
+    padding: 10px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    transition: all 0.7s ;
+}
+
+.trainerone:hover .trainer-info {
+    bottom: 2rem;
+}
+
+/* review  */
+.triangle-left {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    background-color: #8096be;
+}
+
+.triangle-right {
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    background-color: #8096be;
+}
+
+/* bmi pointer */
+.bmi-triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 30px;
+    height: 30px;
+    background-color:#f29d0e;
+    bottom: -30px;
+    transform: translateX(-50%);
 }
