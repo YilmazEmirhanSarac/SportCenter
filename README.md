@@ -9,7 +9,6 @@ Sport Center is a modern and responsive web interface designed to enhance sports
 - **Responsive Design:** A modern interface compatible with mobile and desktop devices.
 - **Fast and Lightweight:** Optimized minimal and high-performance styling with Tailwind CSS.
 - **Dynamic Content:** Interactive components and user experience-focused design using Vanilla JavaScript.
-- **Easy to Use:** A user-friendly structure for sports center information, events, and reservation processes.
 
 ## Technologies Used
 
@@ -40,8 +39,10 @@ To run the project in your local environment, follow these steps:
      ```
      (Ensure `live-server` is installed globally via npm if needed.)
 
+## Live Demo
+You can check out the live version of the project here:
+👉 **[Sport Center Live](https://stalwart-sherbet-dfb510.netlify.app/)**
+
 ## License
 
 This project is licensed under the MIT License. For more details, refer to the `LICENSE` file.
-
----
