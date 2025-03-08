@@ -16,6 +16,11 @@ Sport Center is a modern and responsive web interface designed to enhance sports
 - **Tailwind CSS** – For fast and scalable styling
 - **Vanilla JavaScript** – For dynamic content and interactions
 
+
+## Live Demo
+You can check out the live version of the project here:
+👉 **[Sport Center Live](https://stalwart-sherbet-dfb510.netlify.app/)**
+
 ## Installation and Usage
 
 To run the project in your local environment, follow these steps:
@@ -38,11 +43,3 @@ To run the project in your local environment, follow these steps:
      npx live-server
      ```
      (Ensure `live-server` is installed globally via npm if needed.)
-
-## Live Demo
-You can check out the live version of the project here:
-👉 **[Sport Center Live](https://stalwart-sherbet-dfb510.netlify.app/)**
-
-## License
-
-This project is licensed under the MIT License. For more details, refer to the `LICENSE` file.
